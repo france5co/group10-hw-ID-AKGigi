@@ -5,7 +5,6 @@ const int RAIN_A = A5;
 const int LIGHT = A3;
 const int WIND = 7;
 
-//const int BYPASS = 8;
 
 int rain = 0;
 float temperature = 0;
@@ -14,7 +13,6 @@ int light = 0;
 bool wind = 0;
 bool last_wind = 0;
 int count_wind = 0;
-//bool switch = LOW;
 
 SimpleDHT11 dht11(TEMP_HUM);
 
@@ -24,7 +22,6 @@ void setup() {
   pinMode(RAIN_D, INPUT);
   pinMode(RAIN_A, INPUT);
   pinMode(WIND, INPUT);
- // pinMode(BYPASS, INPUT);
 }
 
 
@@ -70,6 +67,5 @@ Serial.print("e");
 
 count_wind = 0;
 
-//Serial.println();
-delay(1000); // DHT11 sampling rate is 1HZ.
+delay(1000);
 }
