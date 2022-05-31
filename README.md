@@ -3,7 +3,7 @@
 <em> Group 10 - AKGigi </em>
 
 <p align="center">
-  <img src="./imgs/RadioBlob.png">
+  <img src="./imgs/radioBlob.png">
 </p>
 
 ## General informations
